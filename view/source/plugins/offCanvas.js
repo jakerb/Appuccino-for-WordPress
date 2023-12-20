@@ -2,7 +2,6 @@
 /**
  * @name       Off Canvas Polyfill
  * @info       Added fix to auto toggle the off-canvas sidebar.
- * @link       https://myappuccino.com/question/automatically-close-the-sidebar-off-canvas-when-the-view-changes/
  * @since      1.1.1
  *
  * @package    Appuccino

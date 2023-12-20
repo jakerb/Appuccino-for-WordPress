@@ -1,7 +1,7 @@
 {
-  "name": "myappuccino_source",
+  "name": "appuccino_source",
   "version": "1.0.0",
-  "description": "The source folder from the MyAppuccino plugin.",
+  "description": "The source folder from the Appuccino plugin.",
   "author": "MyAppuccino",
   "license": "ISC",
   "devDependencies": {

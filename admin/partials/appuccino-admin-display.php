@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @since      1.0.0
  *
  * @package    Appuccino
@@ -28,18 +28,18 @@
 ?>
 
 <div class="wrap">
-	<h1 class="wp-heading-inline">MyAppuccino for Wordpress</h1>
+	<h1 class="wp-heading-inline">Appuccino for Wordpress</h1>
 	<?php if(!is_array($manifest_file)) { ?>
 	<p><strong>Oh no!</strong> I cannot load the manifest file this could be because you need to re-save your permalinks settings or because your site has been configured incorrectly. In order for your app to work, the manifest file is required.</p>
 	<?php } ?>
 	<?php if($is_localhost) { ?>
-	<p><strong>Internet Access</strong> Ensure that this Wordpress site is accessible over the internet, a localhost version will not be able to communicate with <a href="https://myappuccino.com">MyAppuccino.com</a></p>
+	<p><strong>Internet Access</strong> Ensure that this Wordpress site is accessible over the internet, a localhost version will not be able to communicate with Appuccino</p>
 	<?php } ?>
 	<div class="card">
 		<h2 class="title">Project URL</h2>
-		<p>Copy the following URL and paste it into the <em>Project URL</em> field when creating an app in the MyAppuccino dashboard.</p>
+		<p>Copy the following URL and paste it into the <em>Project URL</em> field when creating an app in the Appuccino dashboard.</p>
 		<input value="<?php echo $api_endpoint; ?>" type="text" readonly class="regular-text ltr" style="width:100%">
-		<p class="description"><small>If you have just installed MyAppuccino for Wordpress please save your permalinks before continuing.</small></p>
+		<p class="description"><small>If you have just installed Appuccino for Wordpress please save your permalinks before continuing.</small></p>
 	</div>
 	<div class="card">
 		<h2 class="title">Project Manifest</h2>

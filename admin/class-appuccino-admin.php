@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @since      1.0.0
  *
  * @package    Appuccino

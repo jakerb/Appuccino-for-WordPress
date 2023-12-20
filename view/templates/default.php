@@ -6,7 +6,7 @@
  * This file is converted to a .html page and imported into the app.
  * To trust the HTML then use the trust filter: post.post_content | trust
  *
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @since      1.0.0
  *
  * @package    Appuccino

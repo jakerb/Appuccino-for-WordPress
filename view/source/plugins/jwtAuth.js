@@ -1,7 +1,7 @@
 
 	/**
      * @name 	JWT Auth Plugin
-     * @author 	MyAppuccino.com
+     * @author 	Jake Bown
      * @version 1.0.0
      * @note 	This plugin requires "JWT Authentication for WP REST API" Wordpress Plugin to work.
      			You can find out more at https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/
@@ -14,9 +14,9 @@
 		    this.jwtAuthPlugin = {
 		        
 		        NAME: 'JWT Auth Plugin',
-		        AUTHOR: 'MyAppuccino',
+		        AUTHOR: 'Appuccino',
 		        VERSION: '1.0.0',
-		        SUPPORT_URL: 'https://myappuccino.com',
+		        SUPPORT_URL: 'https://github.com/jakerb/Appuccino-for-WordPress',
 
 		        PROFILE: false,
 		        RESPONSE: false,

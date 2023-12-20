@@ -3,7 +3,7 @@
 /**
  * Fired during plugin activation
  *
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @since      1.0.0
  *
  * @package    Appuccino

@@ -2,7 +2,7 @@
 /**
  * @name       Hello World
  * @info       I am a demostration plugin for you to look at. 
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @usage 	   this.helloWorldPlugin.greet('Simon'); //Output: Hello Simon!
  * @since      1.0.0
  *

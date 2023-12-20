@@ -2,7 +2,7 @@
 /**
  * Provide some Javascript to be included within your application.
  *
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @since      1.0.0
  *
  * @package    Appuccino
@@ -17,7 +17,7 @@
  		 * @info Fired when the application controller is ready.
  		 * 
  		 * Read more about hooks in App Docs.
- 		 * @link https://dashboard.myappuccino.com/documentation/app/
+ 		 * @link https://github.com/jakerb/appuccino/wiki
  		 */
 
 	    $appuccino.action.add('application/controller', function() {

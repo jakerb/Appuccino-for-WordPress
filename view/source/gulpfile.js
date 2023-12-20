@@ -2,7 +2,7 @@
 /**
  * The Gulp file used to compile all /source files.
  *
- * @link       https://myappuccino.com/
+ * @link       https://github.com/jakerb/Appuccino-for-WordPress
  * @since      1.0.0
  *
  * @package    Appuccino
@@ -51,7 +51,7 @@ gulp.task('css', function(){
 
 gulp.task('watch', function() {
 
-	console.info('\n* * * MyAppuccino * * * \n');
+	console.info('\n* * * Appuccino * * * \n');
 	console.info('> Add/Modify SCSS variables in config.js then restart Gulp otherwise add variables inline.\n');
 
 	gulp.watch(appuccino_config.project.javascript_dir, ['js'])

@@ -8,20 +8,20 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://myappuccino.com/
+ * @link              https://github.com/jakerb/Appuccino-for-WordPress
  * @since             1.0.0
- * @package           MyAppuccino
+ * @package           Appuccino
  *
  * @wordpress-plugin
- * Plugin Name:       MyAppuccino
- * Plugin URI:        https://myappuccino.com
- * Description:       A fresh way to create apps.
+ * Plugin Name:       Appuccino
+ * Plugin URI:        https://github.com/jakerb/Appuccino-for-WordPress
+ * Description:       Turn your WordPress site into an App API.
  * Version:           1.1.0
- * Author:            MyAppuccino.com
- * Author URI:        https://myappuccino.com
+ * Author:            Jake Bown
+ * Author URI:        https://github.com/jakerb/Appuccino-for-WordPress
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       myappuccino
+ * Text Domain:       appuccino
  * Domain Path:       /languages
  */
 
@@ -41,7 +41,7 @@ define( 'MYAPPUCCINO_VERSION', '1.0.14');
 
 
 function register_appuccino_menu_item() {
-    add_menu_page('MyAppuccino', 'MyAppuccino', 'add_users', 'appuccino', 'appuccino_menu_item', null, 6);
+    add_menu_page('Appuccino', 'Appuccino', 'add_users', 'appuccino', 'appuccino_menu_item', null, 6);
 }
 add_action('admin_menu', 'register_appuccino_menu_item');
 
