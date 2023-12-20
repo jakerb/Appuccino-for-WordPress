@@ -1,0 +1,151 @@
+
+/**
+ * @info       This is the main stylesheet file, you can either set variables in the config.js
+ 			   file, as included scss files or simply inline. 
+ * @link       https://myappuccino.com/
+ */
+
+$white: #ffffff;
+$pink: #df387d;
+$dark_blue: #45545f;
+
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline: 0;
+}
+
+html {
+	width: 100%;
+	.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+		height: 60px;
+	}
+
+}
+
+html {
+  height: 100%;
+  background-color: $white;
+
+  body {
+    background: transparent;
+    overflow: scroll;
+
+	.uk-form-no-focus {
+	  outline: none;
+	  border: none;
+	  &:focus, &:active, &:hover {
+	    outline: none;
+	    border: none;
+	  }
+	}
+
+	.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+	  height: 50px;
+	}
+
+	.uk-link, a {
+	  color: $pink;
+	}
+
+	.uk-button-primary {
+	  background-color: $pink;
+	}
+
+	.uk-link {
+	  &:hover, &:active, &:focus {
+	    color: $pink;
+	    text-decoration: none;
+	  }
+	}
+
+	a {
+	  &:hover, &:active, &:focus {
+	    color: $pink;
+	    text-decoration: none;
+	  }
+	}
+
+	.uk-button-primary {
+	  &:hover, &:active, &:focus {
+	    background-color: $pink;
+	  }
+	}
+
+	.uk-card-primary:not(.uk-primary) {
+	  background-color: $dark_blue;
+	}
+
+	.page-has-header {
+	  padding-top: 50px;
+	}
+
+	.page-has-footer {
+	  padding-bottom: 50px;
+	}
+
+	/* header */
+
+	[ng-view] nav.uk-navbar-container {
+	  background-color: $dark_blue;
+	}
+
+	.uk-navbar-nav > li > a {
+	  color: $white;
+	}
+
+	/* off canvas */
+
+	.uk-offcanvas-bar {
+	  background-color: $dark_blue;
+	}
+
+	.uk-offcanvas-overlay::before {
+	  background: rgba(0, 0, 0, 0.6);
+	}
+
+	.uk-offcanvas-close {
+	  top: 0;
+	  right: 0;
+	  padding: 15px;
+	}
+
+	.uk-offcanvas-bar {
+	  .uk-close {
+	    color: rgba(255, 255, 255, 1);
+	  }
+	  .uk-nav-default > li > a {
+	    color: $white;
+	    &:hover, &:active, &:focus {
+	      color: $white;
+	    }
+	  }
+	}
+
+	/* footer */
+
+	footer {
+	  .uk-card-default {
+	    background-color: $dark_blue;
+	    box-shadow: none;
+	  }
+	  a {
+	    text-align: center;
+	    display: block;
+	    padding: 7px;
+	    color: $white;
+	    span {
+	      &:first-child {
+	        padding-bottom: 4px;
+	      }
+	      display: block;
+	      font-size: 10px;
+	    }
+	    &.active span {
+	      color: $white;
+	    }
+	  }
+	}
+
+  }
+
+}
